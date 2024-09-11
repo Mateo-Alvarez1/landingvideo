@@ -7,7 +7,7 @@ export const Testimonio = () => {
     <div className="pattern flex flex-col lg:flex-row items-center ">
       <div className="h-full py-20 px-12 flex flex-col items-center lg:items-start">
         <h2 className="text-grey w-80 leading-tight md:w-11/12 lg:w-full lg:pr-10 2xl:w-4/5 lg:leading-tight text-4xl text-center md:text-5xl lg:leading-tight xl:leading-normal md:leading-tight lg:text-start lg:text-5xl ">
-          CONOCE COMO <span className="text-yellow">AYUDAMOS</span> A{" "}
+          CONOCE CÓMO <span className="text-yellow">AYUDAMOS</span> A{" "}
           <span className="bg-yellow px-2">VALERIA</span> A MEJORAR SU
           <span className="text-yellow"> CALIDAD DE VIDA</span>
         </h2>

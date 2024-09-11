@@ -7,7 +7,7 @@ export const NavBar = () => {
       <p className="text-green font-extrabold text-xl">Lic.Daniela Rodriguez</p>
       <ul className="hidden lg:flex list-none justify-between items-center">
         <li className=" font-medium text-lg text-grey px-4 cursor-pointer hover:text-green hover:opacity-80 transition-all">
-          Solucion
+          Solución
         </li>
         <li className=" font-medium text-lg text-grey px-4 cursor-pointer hover:text-green hover:opacity-80 transition-all">
           Servicios

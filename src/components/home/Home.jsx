@@ -30,7 +30,7 @@ export const Home = () => {
           </li>
           <li className=" text-grey font-grey font-medium text-base md:text-lg pb-2 lg:pb-0 lg:text-lg flex items-center">
             <img className="pr-1 w-8" src={tool} alt="tool" />
-            Herramientas Practicas
+            Herramientas Prácticas
           </li>
         </ul>
       </div>

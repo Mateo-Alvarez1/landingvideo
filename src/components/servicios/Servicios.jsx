@@ -27,11 +27,11 @@ export const Servicios = () => {
       <h3 className="text-grey  py-4 text-4xl text-center md:text-5xl md:leading-tight lg:text-start lg:text-5xl xl:leading-tight 2xl:leading-tight">
         TE <span className="text-yellow">AYUDAMOS</span> A MEJORAR
       </h3>
-      <div className="flex flex-col md:w-11/12 lg:flex-row items-center justify-between lg:w-full h-full p-10">
+      <div className="  cursor-pointer flex flex-col md:w-11/12 lg:flex-row items-center justify-between lg:w-full h-full p-10 ">
         {servicios.map((servicio) => (
           <div
             key={servicio.id}
-            className=" flex rounded-2xl flex-col m-4 py-5 px-8 items-center text-center outline outline-2 outline-green"
+            className="flex rounded-2xl flex-col m-4 py-5 px-8 items-center text-center outline outline-2 outline-green hover-scale transition-all"
           >
             <h3 className="text-gre bg-yellow  py-2 px-3 text-xl text-center md:leading-tight lg:text-start 2xl:text-3xl xl:leading-tight 2xl:leading-tight">
               {servicio.title}
@@ -39,7 +39,7 @@ export const Servicios = () => {
             <p className="my-5 md:px-3 font-medium italic text-xl">
               {servicio.descripcion}
             </p>
-            <a className="font-bold text-lg text-green flex items-center">
+            <a className="cursor-pointer font-bold text-lg text-green flex items-center hover:text-yellow transition-all">
               Conoce Más <img className="w-6 pl-2" src={arrow} alt="" />
             </a>
           </div>

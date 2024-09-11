@@ -11,7 +11,7 @@ export const Footer = () => {
           Inicio
         </li>
         <li className=" font-medium text-lg text-grey px-4 cursor-pointer hover:text-green hover:opacity-80 transition-all">
-          Solucion
+          Solución
         </li>
         <li className=" font-medium text-lg text-grey px-4 cursor-pointer hover:text-green hover:opacity-80 transition-all">
           Testimonios

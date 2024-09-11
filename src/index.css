@@ -51,3 +51,24 @@
     transform: translateX(-100%);
   }
 }
+
+.bounce {
+  animation: 2s bounce infinite linear;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px); /* El botón se mueve hacia arriba */
+  }
+}
