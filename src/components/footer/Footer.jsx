@@ -21,7 +21,12 @@ export const Footer = () => {
         </li>
       </ul>
       <button className=" text-green font-extrabold px-12 cursor-pointer mt-5 poppins flex items-center justify-center bg-none border-none outline outline-green md:px-16 lg:px-28 py-3 text-lg font-medium hover:outline-none hover:bg-green hover:text-grey transition-all">
-        Agenda tu turno
+        <a
+          className="text-green no-underline"
+          href="https://app.acuityscheduling.com/schedule.php?owner=33406992"
+        >
+          Agenda tu turno
+        </a>
       </button>
     </div>
   );

@@ -15,7 +15,12 @@ export const Solution = () => {
           alimentación adaptados a tus necesidades y objetivos individuales.
         </p>
         <button className=" text-green font-extrabold cursor-pointer mt-5 poppins flex items-center justify-center bg-none border-none outline outline-green  px-12 md:px-16 lg:px-20 py-3 text-lg font-medium hover:outline-none hover:bg-green hover:text-grey transition-all">
-          ¡ Empeza hoy !
+          <a
+            className="text-green no-underline"
+            href="https://app.acuityscheduling.com/schedule.php?owner=33406992"
+          >
+            ¡ Empeza hoy !
+          </a>
         </button>
       </div>
       <div className="lg:pr-28 mb-20 lg:-mt-0 lg:pt-20">

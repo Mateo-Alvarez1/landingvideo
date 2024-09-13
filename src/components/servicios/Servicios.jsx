@@ -39,7 +39,10 @@ export const Servicios = () => {
             <p className="my-5 md:px-3 font-medium italic text-xl">
               {servicio.descripcion}
             </p>
-            <a className="cursor-pointer font-bold text-lg text-green flex items-center hover:text-yellow transition-all">
+            <a
+              href="https://app.acuityscheduling.com/schedule.php?owner=33406992"
+              className="no-underline cursor-pointer font-bold text-lg text-green flex items-center hover:text-yellow transition-all"
+            >
               Conoce Más <img className="w-6 pl-2" src={arrow} alt="" />
             </a>
           </div>

@@ -17,7 +17,12 @@ export const Home = () => {
           mejorar tu calidad de vida
         </p>
         <button className=" text-green font-extrabold cursor-pointer mt-5 poppins flex items-center justify-center bg-none border-none outline outline-green  px-12 md:px-16 lg:px-28 py-3 text-lg font-medium hover:outline-none hover:bg-green hover:text-grey transition-all">
-          Agenda tu turno
+          <a
+            className="text-green no-underline"
+            href="https://app.acuityscheduling.com/schedule.php?owner=33406992"
+          >
+            Agenda tu turno
+          </a>
         </button>
         <ul className="-ml-11 mt-8 lg:mt-10 list-none flex-col lg:flex-row flex items-center">
           <li className=" text-grey font-grey font-medium text-base md:text-lg pb-2 lg:pb-0 lg:text-lg flex items-center pr-4">

@@ -16,7 +16,10 @@ export const Testimonio = () => {
           mejorar su bienestar y disfrutar de un estilo de vida más balanceado.
           ¿Estás listo para alcanzar tus metas de salud?
         </p>
-        <a className="bg-yellow py-3  px-8 cursor-pointer mt-2 poppins flex items-center justify-center text-green text-sm md:text-xl font-bold hover:bg-transparent hover:outline hover:outline-yellow transition-all">
+        <a
+          href="https://app.acuityscheduling.com/schedule.php?owner=33406992"
+          className="bg-yellow py-3 no-underline   px-8 cursor-pointer mt-2 poppins flex items-center justify-center text-green text-sm md:text-xl font-bold hover:bg-transparent hover:outline hover:outline-yellow transition-all"
+        >
           Tu bienestar es una prioridad
           <img className="w-8 pl-2" src={arrow} alt="calendar" />
         </a>
